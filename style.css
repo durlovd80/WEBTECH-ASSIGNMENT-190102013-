@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    right: 50%;
+    background:rgb(80, 243, 116);
+    font-weight: 400;
+    font-size: larger;
+    
+  }
+  header {
+    right: 50%;
+    background:rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: larger;
+    
+        animation: color-change 1s infinite;
+      }
+      
+      @keyframes color-change {
+        0% { color: rgb(255, 255, 255); }
+        25% { color: brown;}
+        50% { color: rgb(76, 255, 60); }
+        75% {color: yellow;}
+        100% { color: red; }
+      }
+    
+
+.fromm{
+  display: flex;
+  align-items: center;
+  }
